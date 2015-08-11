@@ -1,0 +1,22 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Copy Buffer Pos'
+      'command': 'buffer-pos:get-pos'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'buffer-pos'
+      'submenu': [
+        {
+          'label': 'Copy Buffer Pos'
+          'command': 'buffer-pos:get-pos'
+        }
+      ]
+    ]
+  }
+]
