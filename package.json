@@ -1,7 +1,7 @@
 {
   "name": "buffer-pos",
   "main": "./lib/buffer-pos",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Copy the linear buffer position of the caret in the editor.",
   "repository": "https://github.com/peterwald/buffer-pos",
   "license": "MIT",
