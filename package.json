@@ -1,7 +1,7 @@
 {
   "name": "buffer-pos",
   "main": "./lib/buffer-pos",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "description": "Copy the current cursor position to the clipboard as the byte offset from the beginning of the edit buffer.",
   "repository": "https://github.com/peterwald/buffer-pos",
   "license": "MIT",
