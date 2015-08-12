@@ -6,5 +6,4 @@ module.exports =
       editor = @getModel()
       pos = editor.getCursorBufferPosition()
       buffPos = editor.getBuffer().characterIndexForPosition(pos)
-      atom.clipboard.write("#{editor.getPath()}:#{buffPos}")
-      console.log("#{editor.getPath()}:#{buffPos}")
+      atom.clipboard.write("#{editor.getPath()}:##{buffPos}")
